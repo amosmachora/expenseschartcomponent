@@ -1,0 +1,63 @@
+.App {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.App__top {
+  background-color: hsl(10, 79%, 65%);
+  color: #fff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h3 {
+  font-size: 14px;
+}
+.amount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.App__bottom {
+  background-color: #fff;
+  border-radius: 12px;
+  margin-top: 20px;
+  padding: 2rem;
+}
+.heading {
+  color: hsl(25, 47%, 15%);
+}
+.bottom-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total-text {
+  color: hsl(28, 10%, 53%);
+}
+.total-number {
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(25, 47%, 15%);
+}
+.bottom-end-right {
+  text-align: right;
+}
+.percentage {
+  color: hsl(25, 47%, 15%);
+  font-weight: 700;
+  font-size: 14px;
+}
+.from {
+  color: hsl(28, 10%, 53%);
+}
+.bar-chart {
+  margin: 20px 0px;
+}
+@media screen and (max-width: 650px) {
+  .App {
+    width: 300px;
+  }
+}

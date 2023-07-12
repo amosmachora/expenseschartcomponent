@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  height: 100vh;
+  background-color: hsl(33, 100%, 98%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
